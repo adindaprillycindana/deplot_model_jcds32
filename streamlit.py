@@ -18,7 +18,7 @@ def create_user_input():
     age = st.sidebar.slider('age', min_value=1, max_value=80, value=20)
     sibsp = st.sidebar.slider('sibsp', min_value=0, max_value=8, value=1)
     parch = st.sidebar.slider('parch', min_value=0, max_value=6, value=1)
-    fare = st.sidebar.number_input('fare', min_value=0, max_value=512, value=30)
+    fare = st.sidebar.number_input('fare', min_value=0.0, max_value=512.0, value=30.0)
 
     # categorical: 'sex','embarked'
     sex = st.sidebar.radio('sex', ['male', 'female'])
