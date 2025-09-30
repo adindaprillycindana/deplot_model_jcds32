@@ -6,3 +6,4 @@ category_encoders
 xgboost
 imbalanced-learn
 catboost
+seaborn
